@@ -1,0 +1,205 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.Navegador {
+    background-color: brown;
+    text-align: center;
+  
+}
+
+.Navegador:hover{
+    font-size: large;
+}
+
+
+
+.Logo {
+    padding: -500px;
+    margin: 10px;
+
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+    font-family: 'Cantarell', sans-serif;
+}
+
+
+a {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+html {
+    background-color: white;
+}
+
+.Portada {
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    color: brown;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+p {
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+
+.Usuario {
+    text-align: center;
+}
+
+.Ingresar {
+    display: block;
+    margin: auto;
+    padding: 50px;
+
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+.Contacto {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border: 50px;
+    margin: 90px;
+}
+
+.Redes {
+    text-align: right;
+}
+
+.Locales {
+    display: block;
+    margin: auto;
+    padding: 100px;
+}
+
+.Productos {
+    display: block;
+    margin: auto;
+}
+
+footer {
+    font-family: 'Hind Siliguri', sans-serif;
+    text-align: end left;
+}
+
+.GridContainer {
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 250px);
+    gap: 1rem;
+    grid-template-areas:
+        "H2 H2 H2"
+        "perros bancos gatos"
+        "footer footer footer";
+}
+
+.H2 {
+    grid-area: H2;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+
+
+.contenedor {
+    display: flex;
+    justify-content: space-between
+}
+
+.Perros {
+
+    text-align: center
+}
+
+.bancos {
+
+
+    text-align: right center;
+    background-color: white;
+    border: 3px solid rgba(255, 72, 0, 0.336);
+    margin-bottom: 15px;
+
+
+
+}
+
+.Gatos {
+    align-items: center;
+    text-align: center;
+    padding-left: 100px;
+
+}
+
+
+
+
+.Footer {
+    grid-area: footer;
+    color: brown;
+}
+
+.Insta {
+    color: brown;
+}
+
+.Twitter {
+    color: brown;
+}
+
+.Facebook {
+    color: brown;
+}
+
+.Promo {
+    color: blue;
+    text-decoration: underline;
+    font-size: 14px;
+    text-align: right;
+}
+
+.Mascotas{
+    display: flex;
+    margin: 10%;
+}
+
+.Dog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15%;
+}
+
+.Cat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15%;
+    justify-self: stretch;
+
+
+}
+
+
+@media screen and (min-width: 484px) {}
