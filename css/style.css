@@ -62,10 +62,9 @@ p {
     text-align: center;
 }
 
-.Ingresar {
-    display: block;
-    margin: auto;
-    padding: 50px;
+.Button {
+   text-align: center;
+    
 
 }
 
