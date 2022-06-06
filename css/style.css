@@ -7,10 +7,10 @@
 .Navegador {
     background-color: brown;
     text-align: center;
-  
+
 }
 
-.Navegador:hover{
+.Navegador:hover {
     font-size: large;
 }
 
@@ -63,8 +63,8 @@ p {
 }
 
 .Button {
-   text-align: center;
-    
+    text-align: center;
+
 
 }
 
@@ -96,10 +96,6 @@ ul {
     margin: auto;
 }
 
-footer {
-    font-family: 'Hind Siliguri', sans-serif;
-    text-align: end left;
-}
 
 .GridContainer {
 
@@ -152,25 +148,6 @@ footer {
 }
 
 
-
-
-.Footer {
-    grid-area: footer;
-    color: brown;
-}
-
-.Insta {
-    color: brown;
-}
-
-.Twitter {
-    color: brown;
-}
-
-.Facebook {
-    color: brown;
-}
-
 .Promo {
     color: blue;
     text-decoration: underline;
@@ -178,7 +155,7 @@ footer {
     text-align: right;
 }
 
-.Mascotas{
+.Mascotas {
     display: flex;
     margin: 10%;
 }
@@ -200,5 +177,72 @@ footer {
 
 }
 
+#carouselExampleCaptions {
+    width: 900px;
+    height: 900px;
+   padding-left: 25%;
+}
 
-@media screen and (min-width: 484px) {}
+.carousel-caption {
+    color: black;
+}
+
+
+
+:root{
+   --facebook: #3b5999;
+   --instagram: #e4405f;
+   --twitter: #55acee;
+
+}
+
+.redes-container{
+    display: flex;
+    height: 100vh;
+    align-items: end;
+    justify-content: end;
+}
+
+.redes-container ul li{
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    text-align: center;
+}
+
+.redes-container ul li a{
+    display: block;
+    padding: 0 10px;
+    background-color: #333;
+    color: white;
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 2);
+    transition: .2s;
+}
+
+.redes-container ul li a:hover a{ 
+    filter: blur(2px);
+}
+
+.redes-container ul li a:hover{
+    transform: translateY(-3) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0,.4);
+    filter: none;
+}
+
+.redes-container ul li .facebook:hover{
+    background: var(--facebook);
+}
+
+.redes-container ul li .instagram:hover{
+    background: var(--instagram);
+}
+
+.redes-container ul li .twitter:hover{
+    background: var(--twitter);
+}
+
+
+
+
