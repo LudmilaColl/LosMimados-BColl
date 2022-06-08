@@ -115,6 +115,27 @@ ul {
     margin: auto;
 }
 
+.Elementosperro {
+display: flex ;
+flex-direction: row ;
+justify-content: flex-start;
+
+}
+
+.ElementosGatos{
+   display: flex ;
+flex-direction: row ;
+justify-content: flex-start;
+margin: 25%;
+margin-left: 0%;
+margin-right: 0%;
+
+}
+
+
+.P{
+    text-decoration: underline;
+}
 
 /* .GridContainer {
 
@@ -222,8 +243,8 @@ ul {
     width: 500px;
     height: 500px;
 
-}
-
+} 
+ 
 
 :root {
     --facebook: #3b5999;
@@ -282,4 +303,8 @@ ul {
 .Informacion {
     display: flex;
 
+}
+
+.footer{
+    text-align: right end;
 }
