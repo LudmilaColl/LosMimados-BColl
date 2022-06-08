@@ -54,27 +54,61 @@ padding-right: 0% ;
 
 .Saludo {
 
-    background-color: brown;
-  
-    
+    background-color: brown ;
     color: white;
 }
 
 .H2 {
     text-decoration: underline;
     font-size: 30px;
-    text-align: left;
+    text-align: center;
+    
+}
+
+.name{
+    text-decoration: underline;
+    text-align: justify center;
+    
     
 }
 
 p {
-    font-weight: bold;
+    
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
-    text-align: left;
+    text-align: center;
+    padding: 2%;
+    color: white;
     
 
 }
+
+.Creadores{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   padding-left: 7%;
+ 
+
+}
+
+.Descr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.cuadro{
+    border-color: white;
+    border-style: groove;
+}
+
+.chicas{
+    color: white;
+}
+
+
 
 
 .Usuario {
