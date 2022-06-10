@@ -1,339 +1,170 @@
+.footer {
+  text-align: right end; }
+  .footer :root {
+    --facebook: #3b5999;
+    --instagram: #e4405f;
+    --twitter: #55acee; }
+  .footer .redes-container {
+    display: flex;
+    height: 100vh;
+    align-items: end;
+    justify-content: end; }
+    .footer .redes-container .ul li {
+      display: inline-block;
+      margin: 0 5px;
+      width: 50px;
+      text-align: center; }
+    .footer .redes-container .li a {
+      display: block;
+      padding: 0 10px;
+      background-color: #333;
+      color: white;
+      line-height: 50px;
+      font-size: 18px;
+      box-shadow: 0 3px 5px 0px black;
+      transition: .2s; }
+    .a .footer .redes-container:hover a {
+      filter: blur(2px); }
+    .a .footer .redes-container:hover {
+      transform: translateY(-3) scale(1.05);
+      box-shadow: 0 5px 5px 0px black 0, 0, 0, 0.4;
+      filter: none; }
+    .facebook .footer .redes-container:hover {
+      background: var(--facebook); }
+    .instagram .footer .redes-container:hover {
+      background: var(--instagram); }
+    .twitter .footer .redes-container:hover {
+      background: var(--twitter); }
+
 * {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
 
 .Navegador {
-    background-color: brown;
-    text-align: center;
-
-}
-
-.Navegador:hover {
-    font-size: large;
-}
-
-
-
-.Logo {
+  background-color: brown;
+  text-align: center; }
+  .Navegador:hover {
+    font-size: large; }
+  .Navegador .Logo {
     padding: -500px;
-    margin: 10px;
-
-}
+    margin: 10px; }
+  .Navegador ul {
+    list-style-type: none; }
+    .Navegador ul li {
+      display: inline-block; }
+    .Navegador ul ul li a {
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .Navegador html {
+    background-color: white; }
 
 h1 {
-    color: brown;
-    text-align: center;
-    font-family: 'Cantarell', sans-serif;
-}
-
-
-a {
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-
-
-html {
-    background-color: white;
-}
+  color: brown;
+  text-align: center;
+  font-family: 'Cantarell', sans-serif; }
 
 .Portada {
-    display: block;
-    margin: auto;
-
-}
-
-/* .container-fluid{
-padding-left: 0% ;
-padding-right: 0% ;
-
-} */
+  display: block;
+  margin: auto; }
 
 .Saludo {
-
-    background-color: brown ;
-    color: white;
-}
-
-.H2 {
-    text-decoration: underline;
-    font-size: 30px;
-    text-align: center;
-    
-}
-
-.name{
-    text-decoration: underline;
-    text-align: justify center;
-    
-    
-}
-
-p {
-    
+  background-color: brown;
+  color: white; }
+  .Saludo .cuadro {
+    border-color: white;
+    border-style: groove; }
+  .Saludo .Creadores {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 7%; }
+  .Saludo .Descr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  .Saludo p {
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
     text-align: center;
     padding: 2%;
-    color: white;
-    
-
-}
-
-.Creadores{
-    display: flex;
-    flex-direction: row;
-   justify-content: space-between;
-   padding-left: 7%;
- 
-
-}
-
-.Descr{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
-}
-
-.cuadro{
-    border-color: white;
-    border-style: groove;
-}
-
-
-
-.Usuario {
-    text-align: center;
-}
-
-.Button {
-    text-align: center;
-
-
-}
-
-
-ul {
-    list-style-type: none;
-}
-
-.Contacto {
-    font-weight: bold;
-    text-align: center;
-    padding: 10px;
-    border: 50px;
-    margin: 90px;
-}
-
-.Redes {
-    text-align: right;
-}
-
-.Locales {
-    display: block;
-    margin: auto;
-    padding: 100px;
-}
-
-.Productos {
-    display: block;
-    margin: auto;
-}
-
-.Elementosperro {
-display: flex ;
-flex-direction: row ;
-justify-content: flex-start;
-
-}
-
-.ElementosGatos{
-   display: flex ;
-flex-direction: row ;
-justify-content: flex-start;
-margin: 25%;
-margin-left: 0%;
-margin-right: 0%;
-
-}
-
-
-.P{
+    color: white; }
+  .Saludo .name {
     text-decoration: underline;
-}
+    text-align: justify center; }
 
-/* .GridContainer {
-
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 250px);
-    gap: 1rem;
-    grid-template-areas:
-        "H2 H2 H2"
-        "perros bancos gatos"
-        "footer footer footer";
-}
-
-.H2 {
-    grid-area: H2;
-    text-align: center;
-    justify-content: center;
-
-}
- */
-
-
-
-/* .contenedor {
-    display: flex;
-    justify-content: space-between
-} */
-
-/* .Perros {
-
-    text-align: center
-}
-
-.bancos {
-
-
-    text-align: right center;
-    background-color: white;
-    border: 3px solid rgba(255, 72, 0, 0.336);
-    margin-bottom: 15px;
-
-
-
-}
-
-.Gatos {
-    align-items: center;
-    text-align: center;
-    padding-left: 100px;
-
-}
-
-
-.Promo {
-    color: blue;
-    text-decoration: underline;
-    font-size: 14px;
-    text-align: right;
-} */
+.Promociones {
+  width: 700px;
+  height: 700px;
+  display: block;
+  margin: auto; }
+  .Promociones .carousel-caption {
+    color: black; }
 
 .Mascotas {
-    display: flex;
-    margin: 0px;
-    padding-left: 15%;
-    padding-right: 5%;
-    background-color: brown;
-}
-
-.Dog {
+  display: flex;
+  margin: 0px;
+  padding-left: 15%;
+  padding-right: 5%;
+  background-color: brown; }
+  .Mascotas .Dog {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-left: 5%;
-    margin: 15px;
-}
-
-.Cat {
+    margin: 15px; }
+  .Mascotas .Cat {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-left: 7%;
     justify-self: stretch;
-    margin: 15px;
-
-}
-
-
-.Promociones {
-
-    width: 700px;
-    height: 700px;
-    display: block;
-    margin: auto;
-
-
-
-
-}
-
-.carousel-caption {
-    color: black;
-
-}
-
-.card {
-    width: 500px;
-    height: 500px;
-
-} 
- 
-
-:root {
-    --facebook: #3b5999;
-    --instagram: #e4405f;
-    --twitter: #55acee;
-
-}
-
-.redes-container {
-    display: flex;
-    height: 100vh;
-    align-items: end;
-    justify-content: end;
-}
-
-.redes-container ul li {
-    display: inline-block;
-    margin: 0 5px;
-    width: 50px;
-    text-align: center;
-}
-
-.redes-container ul li a {
-    display: block;
-    padding: 0 10px;
-    background-color: #333;
-    color: white;
-    line-height: 50px;
-    font-size: 18px;
-    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 2);
-    transition: .2s;
-}
-
-.redes-container ul li a:hover a {
-    filter: blur(2px);
-}
-
-.redes-container ul li a:hover {
-    transform: translateY(-3) scale(1.05);
-    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4);
-    filter: none;
-}
-
-.redes-container ul li .facebook:hover {
-    background: var(--facebook);
-}
-
-.redes-container ul li .instagram:hover {
-    background: var(--instagram);
-}
-
-.redes-container ul li .twitter:hover {
-    background: var(--twitter);
-}
+    margin: 15px; }
 
 .Informacion {
-    display: flex;
+  display: flex; }
+  .Informacion .card-text {
+    color: black; }
 
-}
+.H2 {
+  text-decoration: underline;
+  font-size: 30px;
+  text-align: center; }
 
-.footer{
-    text-align: right end;
-}
+.P {
+  text-decoration: underline; }
+
+.Productos {
+  display: block;
+  margin: auto; }
+
+.Elementosperro {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; }
+
+.ElementosGatos {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 25%;
+  margin-left: 0%;
+  margin-right: 0%; }
+
+.Locales {
+  display: block;
+  margin: auto;
+  padding: 100px; }
+
+.Contacto {
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  border: 50px;
+  margin: 90px; }
+
+.Usuario {
+  text-align: center; }
+
+.Button {
+  text-align: center; }

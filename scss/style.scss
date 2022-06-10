@@ -1,0 +1,221 @@
+@import 'variables';
+@import 'tipografia';
+@import 'footer';
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.Navegador {
+    background-color: $color-principal;
+    text-align: $text;
+
+    &:hover {
+        font-size: large;
+    }
+
+    .Logo {
+        padding: -500px;
+        margin: 10px;
+    
+    }
+
+  
+   ul {
+       list-style-type: none;
+
+       li {
+          display: inline-block; 
+       }
+
+        ul li a {
+        color:$color-sectext;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+
+   
+   }
+
+   html {
+    background-color: $color-sectext;
+}
+
+
+}
+
+h1 {
+    color: $color-principal;
+    text-align: $text;
+    font-family: 'Cantarell', sans-serif;
+}
+
+
+.Portada {
+    display: block;
+    margin: auto;
+
+}
+
+.Saludo {
+
+    background-color: $color-principal;
+    color: $color-sectext;
+
+    .cuadro {
+        border-color: $color-sectext;
+        border-style: groove;
+    }
+
+    .Creadores {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 7%;
+    
+    
+    }
+
+    .Descr {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    
+    }
+
+    p {
+
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px;
+        text-align: $text;
+        padding: 2%;
+        color:$color-sectext;
+    
+    
+    }
+
+    .name {
+        text-decoration: $deco-text;
+        text-align: justify center;
+    
+    
+    }
+
+
+}
+
+.Promociones {
+
+    width: 700px;
+    height: 700px;
+    display: block;
+    margin: auto;
+
+    .carousel-caption {
+        color: black;
+    
+    }
+
+}
+
+.Mascotas {
+    display: flex;
+    margin: 0px;
+    padding-left: 15%;
+    padding-right: 5%;
+    background-color: $color-principal;
+
+    .Dog {
+        display: flex;
+        flex-direction: column;
+        align-items: $text;
+        padding-left: 5%;
+        margin: 15px;
+    }
+
+    .Cat {
+        display: flex;
+        flex-direction: column;
+        align-items: $text;
+        padding-left: 7%;
+        justify-self: stretch;
+        margin: 15px;
+    
+    }
+
+}
+
+.Informacion {
+    display: flex;
+
+    .card-text {
+        color: $color-texto;
+    }
+
+}
+
+.H2 {
+    text-decoration: $deco-text;
+    font-size: 30px;
+    text-align: $text;
+
+}
+
+.P {
+    text-decoration: $deco-text;
+}
+
+.Productos {
+    display: block;
+    margin: auto;
+
+}
+
+
+.Elementosperro {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+
+.ElementosGatos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 25%;
+    margin-left: 0%;
+    margin-right: 0%;
+
+}
+
+
+.Locales {
+    display: block;
+    margin: auto;
+    padding: 100px;
+}
+
+.Contacto {
+    font-weight: bold;
+    text-align: $text;
+    padding: 10px;
+    border: 50px;
+    margin: 90px;
+}
+
+
+.Usuario {
+    text-align: $text;
+}
+
+.Button {
+    text-align: $text;
+
+}
+
+
+
